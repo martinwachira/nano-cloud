@@ -1,5 +1,11 @@
-body {
-    background-image: url("images/doo.png");
+.container1 {
+        height:800px;
+        background-image: url("images/kimi-lee.jpg");
+        background-size: contain; /* or contain depending on what you want */
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align:center;
+        padding:0;
 }
 
 .colorH {
@@ -15,15 +21,17 @@ body {
     margin-top: 450px;
 }
 
-div img {
+/*div img {
     width: 100px;
     height: 100px;
-}
+}*/
+
 
 .firstRow {
-    margin-right: -127px; 
+    margin-right: -127px;
     margin-left: 128px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    
 }
 
 .secondRow {
@@ -31,13 +39,12 @@ div img {
     /* margin-right: -187px; */
 }
 
-.footer {
+footer {
     background-color: #1abc9c;
-    margin-top: 40px;
+    margin-top: -10px;
     /* border-radius: 3px; */
     height: 80px;
     padding: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
 }
-
-
